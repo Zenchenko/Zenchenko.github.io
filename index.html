@@ -1,404 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-    <meta property="og:url" content="">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Зенченко Михаил - WebDeweloper">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="Готов сотрудничать">
-    <meta property="og:site_name" content="tEa">
-    <meta property="article:author" content="Михаил Зенченко">
-
-<title>TEA</title>
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" type="text/css" href="dist/css/style.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    
-
-   <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+	<title>Главная страница - учебный проект Википедия</title>
+	<link rel="stylesheet" href="css/main.css">
 </head>
 
-<body class="body column df"> 
+<body>
 
-<section id="bloc_absalute" class="bloc_absalute animated fadeInLeftBig">
-		
-		<div class="rotating-box">
-			<div class="single-rd">
-				<div class="front-side center df">
-					<img class="img" src="dist/img/photo1.jpg" alt="bac-cub">
-				</div>
-				<div class="back-side center df">
-					<img class="img" src="dist/img/photo2.jpg" alt="bac-cub">
-				</div>
-				<div class="left-side center df">
-					<img class="img" src="dist/img/photo3.jpg" alt="bac-cub">
-				</div>
-				<div class="right-side center df">
-					<img class="img" src="dist/img/photo4.jpg" alt="bac-cub">
-				</div>
-				<div class="top-side center df">
-					<img class="img" src="dist/img/photo5.jpg" alt="bac-cub">
-				</div>
-				<div class="bottom-side center df">
-					<img class="img" src="dist/img/photo6.jpg" alt="bac-cub">
+	<!-- Обертка всего контента   -->
+	<div class="page-wrapper">
+
+		<!-- Левая колонка -->
+		<div class="sidebar-col">
+
+			<!-- Логотип -->
+			<div class="aside-block">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/wiki-logo.png" alt="Википедия">
+					</a>
 				</div>
 			</div>
-		</div>
+			<!-- // Логотип -->
 
-	</section>
-
-			<a class="strela_conteiner center df" href="#">
-				<span class="strela1" id="strela1"></span>
-				<span class="strela2" id="strela2"></span>
-			</a>
- 
-			<header id="header" class="header">
-
-				<img class="pero" src="dist/img/header_bg.png" alt="header_bg">
-
-				<div class="header_conteiner pbl_1  wrap df">
-
-					<div class="logo df animated fadeInLeftBig"> 
-						<img class="logo_svg" src="dist/img/colovrat.png" alt="logo">
-					</div>
-
-					<ul id="nav" class="nav wrap df animated fadeInRightBig">
-
-						<li id="menu_li" class="menu_li center df ">
-							 <h4>Menu</h4> 
-						</li>
-
-						<li>
-
-							<nav class="wrap df animated rotatelnDownRight"> 
-
-								<a id="nav_a1" class="nav_a center df" href="#">
-									<p>О нас</p>
-								</a>
-
-								<a id="nav_a2" class="nav_a center df" href="#bloc_2">
-									<p>"чAй"</p>
-								</a>
-
-								<a id="nav_a3" class="nav_a center df" href="#kult_tea">
-									<p>Культура чая</p>
-								</a>
-
-								<a id="nav_a4" class="nav_a center df" href="#contact">
-									<p>Контакты</p>
-								</a>
-
-							</nav>
-
-						</li>
-
-					</ul>
-
-				</div>
-
-			</header>
-
-	<section class="bloc bloc_1 column center df">
-
-			<div class="conteiner_bloc column df">
-
-
-			<div class="pbl_2 center df">
-
-				
-
-				<div class="pbl_2_1 column center df">
-
-					<h1>Cultural tradition <br>	 of "tEa"</h1>
-
-					<i><p>Tea collection for the health of the body and strengthening the spirit, <br> this is the age-old tradition of all the peoples of the world</p></i>
-
-				</div>
-
-				<div class="pbl_2_2 column center df warning animated fadeInDown">
-
-					<h1 class="pbl_2_2-h1 animated fadeInLeftBig">Культурная традиция<br>"чAй"</h1>
-
-					<i class="pbl_2_2_i animated fadeInLeftBig"><p>Чайный сбор для оздоровления тела и укрепления духа,<br> это вековая традиция всех народов мира</p></i>
-
-				</div>
-
+			<!-- Кнопка -->
+			<div class="aside-block">
+				<a href="new.html" class="button-new">Добавить статью</a>
 			</div>
+			<!-- // Кнопка -->
+
+			<!-- Новые статьи  -->
+			<div class="aside-block">
+				<h3 class="aside-title">
+					Новые статьи
+				</h3>
+				<ul class="articles-list" id="list-articles"></ul>
+			</div>
+			<!-- // Новые статьи  -->
 
 		</div>
+		<!-- // Левая колонка -->
 
-		<div class="strela_2_conteiner center df">
-			
-			<a class="strela_conteiner_2 center df" href="#bloc_2">
-				<span class="strela1_2" id="strela1_1"></span>
-				<span class="strela2_2" id="strela2_2"></span>
-			</a>
+		<!-- Центральная колонка -->
+		<div class="main-col">
+
+			<!-- Блок 1 -->
+			<div class="section-block">
+				<div class="title">Добро пожаловать в Википедию,</div>
+				<p>это учебный проект.</p>
+			</div>
+			<!-- // Блок 1 -->
+
+			<!-- Новая статья   - промо -->
+			<div class="section-block">
+				<div class="title-new-article">Новая статья</div>
+				<article class="article-wrapper" id='markdown-result'></article>
+				<button href="article.html" class="button" id="read-articles">Читать полностью</button>
+			</div>
+			<!-- // Новая статья   - промо -->
+
+			<!-- Все остальные статьи  -->
+			<div class="section-block">
+				<div class="title-new-article">Все статьи</div>
+				<ul class="all-list" id="all-articles"></ul>
+			</div>
+			<!-- // Все остальные статьи  -->
 
 		</div>
-		
+		<!-- // Центральная колонка -->
+	</div>
+
+	<!-- Копирайты -->
+	<footer class="page-footer">
+		<p>Проект сделал Алексей Данчин на интенсиве от <a href="https://WebCademy.ru" target="_blank">WebCademy.ru</a></p>
+	</footer>
+	<!-- Копирайты -->
+	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>  
+	<script type="text/javascript" src="js/index.js"></script> 
+	<script type="text/javascript" src="js/init.js"></script> 
 
-	</section>
-
-	<section name="bloc_2"  id="bloc_2" class="bloc bloc_2 column center df">
-
-		<div class="conteiner_bloc_2_h2 center df">
-			<h2 id="tea" class="tea fadeInLeftBig wow">"чАй"</h2>
-		</div>
-		
-
-		<div class="conteiner_bloc conteiner_bloc_bloc_2 wrap bloc_2_c_b df">
-
-			<div class="bloc_2_pbl column center df wow rollIn">
-
-				<div class="bloc_2_pbl_conteiner column center df"> 
-					<a href="#"><h3 class="bloc_2_pbl_a">ИВАН-ЧАЙ ферментированный Славянский листовой.</h3></a><br>
-
-					<p><i>Состав:</i> ферментированные листья кипрея узколистного. <br> 
-
-                    <p><i>Способ приготовления:</i> Заваривать 2 чайные ложки на чайник 0,5 литра, дать настояться не менее 10 минут. Заваренный чай не теряет своих полезных свойств сутки.</p>  <br> 
-                    
-
-                    <p><i>Место сбора:</i> Экологически чистый Бобруйский район .</p>  
-					
-					<div class="pbloc-summa df">
-
-                    <h2 class="cart-summa">3 <span>p.</span></h2>
-
-                    <a href="#contact" class="button_a_bl_2 center df"><p class="list_text_bl2"><b>Заказать</b></p></a>
-
-                	</div>
-
-                </div>
-
-			</div>
-
-			<div class="bloc_2_pbl lightSpeedln column center df">
-
-				<div class="bloc_2_pbl_conteiner column center df"> 					
-					<a href="#"><h3 class="bloc_2_pbl_a">ИВАН-ЧАЙ ферментированный Славянский листовой.</h3></a><br>
-
-					<p><i>Состав:</i> ферментированные листья кипрея узколистного. <br> 
-
-                    <p><i>Способ приготовления:</i> Заваривать 2 чайные ложки на чайник 0,5 литра, дать настояться не менее 10 минут. Заваренный чай не теряет своих полезных свойств сутки.</p>  <br> 
-                    
-
-                    <p><i>Место сбора:</i> Экологически чистый Бобруйский район .</p>  
-
-					<div class="pbloc-summa df">
-
-                    <h2 class="cart-summa">3 <span>p.</span></h2>
-
-                    <a href="#contact" class="button_a_bl_2 center df"><p class="list_text_bl2"><b>Заказать</b></p></a></div> 
-
-                </div>
-
-			</div>
-
-			<div class="bloc_2_pbl lightSpeedln column center df">
-
-				<div class="bloc_2_pbl_conteiner column center df"> 
-					<a href="#"><h3 class="bloc_2_pbl_a">ИВАН-ЧАЙ ферментированный Славянский листовой.</h3></a><br>
-					<p><i>Состав:</i> ферментированные листья кипрея узколистного. <br> 
-
-                    <p><i>Способ приготовления:</i> Заваривать 2 чайные ложки на чайник 0,5 литра, дать настояться не менее 10 минут. Заваренный чай не теряет своих полезных свойств сутки.</p>  <br> 
-                    
-
-                    <p><i>Место сбора:</i> Экологически чистый Бобруйский район .</p>  
-
-					<div class="pbloc-summa df">
-
-                    <h2 class="cart-summa">3 <span>p.</span></h2>
-
-                    <a href="#contact" class="button_a_bl_2 center df"><p class="list_text_bl2"><b>Заказать</b></p></a></div> 
-
-                </div>
-
-			</div>
-
-			<div class="bloc_2_pbl lightSpeedln column center df">
-
-				<div class="bloc_2_pbl_conteiner column center df"> 					
-					<a href="#"><h3 class="bloc_2_pbl_a">ИВАН-ЧАЙ ферментированный Славянский листовой.</h3></a><br>
-
-					<p><i>Состав:</i> ферментированные листья кипрея узколистного. <br> 
-
-                    <p><i>Способ приготовления:</i> Заваривать 2 чайные ложки на чайник 0,5 литра, дать настояться не менее 10 минут. Заваренный чай не теряет своих полезных свойств сутки.</p>  <br> 
-                    
-
-                    <p><i>Место сбора:</i> Экологически чистый Бобруйский район .</p>  
-
-					<div class="pbloc-summa df">
-
-                    <h2 class="cart-summa">3 <span>p.</span></h2>
-
-                    <a href="#contact" class="button_a_bl_2 center df"><p class="list_text_bl2"><b>Заказать</b></p></a></div> 
-
-                </div>
-
-			</div>
-
-			<div class="bloc_2_pbl lightSpeedln column center df">
-
-				<div class="bloc_2_pbl_conteiner column center df"> 
-					<a href="#"><h3 class="bloc_2_pbl_a">ИВАН-ЧАЙ ферментированный Славянский листовой.</h3></a><br>
-
-					<p><i>Состав:</i> ферментированные листья кипрея узколистного. <br> 
-
-                    <p><i>Способ приготовления:</i> Заваривать 2 чайные ложки на чайник 0,5 литра, дать настояться не менее 10 минут. Заваренный чай не теряет своих полезных свойств сутки.</p>  <br> 
-                    
-
-                    <p><i>Место сбора:</i> Экологически чистый Бобруйский район .</p>  
-
-					<div class="pbloc-summa df">
-
-                    <h2 class="cart-summa">3 <span>p.</span></h2>
-
-                    <a href="#contact" class="button_a_bl_2 center df"><p class="list_text_bl2"><b>Заказать</b></p></a></div> 
-
-                </div>
-
-			</div>
-
-			<div class="bloc_2_pbl lightSpeedln column center df">
-
-				<div class="bloc_2_pbl_conteiner column center df"> 
-					<a href="#"><h3 class="bloc_2_pbl_a">ИВАН-ЧАЙ ферментированный Славянский листовой.</h3></a><br>
-
-					<p><i>Состав:</i> ферментированные листья кипрея узколистного. <br> 
-
-                    <p><i>Способ приготовления:</i> Заваривать 2 чайные ложки на чайник 0,5 литра, дать настояться не менее 10 минут. Заваренный чай не теряет своих полезных свойств сутки.</p>  <br> 
-                    
-
-                    <p><i>Место сбора:</i> Экологически чистый Бобруйский район .</p> 
-
-                    <div class="pbloc-summa df">
-
-                    <h2 class="cart-summa">3 <span>p.</span></h2>
-
-                    <a href="#contact" class="button_a_bl_2 center df"><p class="list_text_bl2"><b>Заказать</b></p></a></div> 
-
-					
-
-                </div>
-
-			</div>
-
-		</div>
-
-	</section>
-
-	<section id="kult_tea" name="kult_tea" class="bloc bloc_3 column senter df">
-		<div class="conteiner_bloc center df">
-			<div class="bl_3_pbl_1">
-				
-				<div class="bl_3_Tea span3">
-					<i><b><h3 class="center df  jackin">Славянские традиции чаепития</h3></b></i>
-<p class="p">Питье бодрящих напитков имеет достаточно долгую историю. Вначале это были простые травы, затем их сборы. К настоящему времени наиболее популярные из них чай, мате и кофе. Следует заметить, что с их приготовлением не так все просто. Почти каждый народ дает предпочтение разработанному им методу приготовления бодрящего напитка.</p> <br>
-<p>Наиболее показательным в этом явилась история усложнения методики заваривания чая, которая к настоящему времени в Японии превратилась в особый ритуал, который с большим успехом предлагается к использованию под названием «чайная церемония». А ведь все начиналось с простого варения чайных листьев в котелке.
-Как могла выглядеть процедура чаепития у славян? К сожалению, не нашлось источников, описывающих это действо. В «Толковом словаре живого великорусского языка» В. Даля глагол «чаевать» означает «проклажаться за чаемъ, пить его въ раздольи».
-</p><br>
-<p>В России понятие чай пристало к растению из которого начали делать Копорский или русский чай (Иван чай). Именно на его примере рассмотрим усложнение и превращение в своеобразный ритуал русского чаепития. Попытаемся показать это, на примере существующих методов его приготовления.
-</p><br><br>
-
-<i><b><h3 class="center df">Методы заваривания</h3>
-</b></i><br>
-<i><b><h3>«Взвар»</h3></b></i><br>
-<p>В кипящую в котелке или чайнике воду бросали приготовленный Иван чай и какое-то время давали покипеть. Слово, «взвар» или «узвар» — подразумевает, какое-то время вареный напиток, по современному — отвар.
-</p>
-<p><i>«Взвар»</i> рекомендуется, многими источниками, заваривать в пропорции чайная ложка сухой травы на 600 – 1000 мл воды и кипятится 3-5 минут.</p><br>
-
-<i><b><h3>«Зелье»</h3></b></i><br>
-<p>Зелье (толковый словарь Ефремовой) ср. 1) Настой на травах, применявшийся в старину как лечебное, колдовское или отравляющее средство.
-Иван чай клали в чугунок, заливали водой и оставляли на ночь томиться в печи. Говоря по-современному, получался вариант травяного настоя.</p><br>
-
-<i><b><h3>«В травнике»</h3></b></i><br>
-<p>«Травник» — в отличие от чайника, имеет еще отдельную колбу для заварки. Данный метод не чем не отличается от современного заваривания в чайнике. Иван чай закладывался в него и заливался кипятком. Через 10 минут чай был готов. Для поддержания температуры использовали его укутывание, которое переросло в изготовление специальных кукол.</p>
-<br><br><br><br>
-
-
-
- <b><h3>Пейте на здоровье, возрождая славянские традиции чаепития!</h3></b><br>
-
-<i><b><p>Использованные информационные источники:</p></b></i>
-
-<p>Материалы школы Адамовича «Традиции» здоровья славян»
-Доступная информация с Интернет-ресурсов</p>
-
-			</div>
-		</div>
-	</section>
-
-	<section id="contact" name="contact" class="bloc bloc_4 column senter df">
-		
-		<form id="ajax-contact" class="conteiner_bloc conteiner_bloc_bl_4 wrap df" action="/dist/php/submit.php" method="POST">
-			
-			<div class="bl_4_pbl_1 wrap column df">
-
-				<div class="pbl_pbl_1 center wrap df">
-
-					<div class="input_pbl_1 center df">
-
-						<label for="email"></label>
-						<input name="email" id="bl_4_email" class="input_pbl_4 df" type="email" placeholder="    @mail для связи">
-					</div>
-				
-					<div class="input_pbl_2 center df">
-
-						<label for="pfone"></label>
-						<input name="pfone" id="bl_4_text" class="input_pbl_4 center df" type="text" placeholder="    Телефон для связи">
-					</div>
-
-				</div>
-
-				<div class="pbl_pbl_2 center df">
-            		
-					<div class="input_pbl_3 center df">
-						<label for="message"></label>
-						 <textarea name="message" id="bl_4_text" class="bl_4_text input_pbl_4_2 center df" type="text" placeholder="   Опишите заказ" cols="30" rows="10"></textarea>
-					</div>
-
-				</div> 
-
-			</div>
-
-			<div class="bl_4_pbl_2 center df">  
-
-				<button type="submit" class="submit button_bl4_pbl_1 center df">
-					<h2>Заказать</h2>
-				</button>
-				
-
-			</div> 
-
-		</form>
-
-	</section>
-
-			<footer class="bloc_5 df"> 
-
-				<div class="conteiner_bloc_5 center wrap df">
-
-					<div class="bloc_5_1 bloc_5_conteiner center df"><p><i class="fa fa-pencil-alt"></i><i><b> +375 (29) 333-33-33</b></i></p></div>
-
-					<div class="bloc_5_2 bloc_5_conteiner center df">
-						<h3>"чАй"</h3>
-					</div>
-
-					<div class="bloc_5_3 bloc_5_conteiner center df"><span>2018 &#169;</span></div>
-
-				</div>
-
-				<div class="masca"></div>
-
-			</footer>
-	<script type="text/javascript" src="dist/js/js.js"></script>
-			 
 
 </body>
 
