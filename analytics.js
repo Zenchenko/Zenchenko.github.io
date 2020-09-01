@@ -19,3 +19,5 @@ function createAnalytics() {
         }
     }
 }
+
+window.analytics = createAnalytics()
