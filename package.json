@@ -1,0 +1,29 @@
+{
+  "name": "zenchenko.github.io",
+  "version": "1.0.0",
+  "description": "webpack blog",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zenchenko/Zenchenko.github.io.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Michail Zenchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zenchenko/Zenchenko.github.io/issues"
+  },
+  "homepage": "https://github.com/Zenchenko/Zenchenko.github.io#readme"
+}
