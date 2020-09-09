@@ -1,4 +1,3 @@
-import Post from './Post'
+const post = new Post('Webpack 2 lewel')
 
-const post = new Post ('webpack post Title')
 console.log('Post to String:', post.toString())
