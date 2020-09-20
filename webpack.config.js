@@ -1,7 +1,9 @@
-module.expres = {
-    entry: './src/index.js',
-    output: {
-        filename: 'bundle.js',
-        path: path.remove(__dirname, 'dist')
-    }
-}
+const path = require('path');
+
+module.exports = {
+  entry: './src/app.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js'
+  }
+};

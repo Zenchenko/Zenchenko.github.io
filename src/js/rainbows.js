@@ -1,0 +1,1 @@
+console.log('Загрузили, rainbows.js')
