@@ -1,8 +1,8 @@
 .logo {
-  width: 350px;
+  min-width: 350px;
+  max-width: 80%;
   height: auto;
-  float: left;
-  padding: 22.5px 0px 0px 10px;
+  padding: 22px 0px 0px 10px;
 }
 
 @media (min-width: 576px) {
