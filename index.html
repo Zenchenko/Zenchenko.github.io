@@ -19,63 +19,91 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   </head>
 
-  <body class="container-xl">
+  <body class="container-fluid">
     <!-- <div id="app">{{ message }}</div> -->
 
-    <main class="container flex-column" role="alert">
-      <section class="alert conteiner">
-        <div class="logo">
-          <img src="dist/img/svg/logo.svg" alt="example" class="logo" />
-        </div>
+    <main class="container-xl flex-column" role="alert">
+      <section class="container container_header">
+        <header class="header">
+          <div class="container_menu">
+            <div class="container">
+              <img
+                src="dist/img/svg/logo.svg"
+                alt="CRED"
+                class="logo"
+              />
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-secondary">
+                Подбор насоса
+              </button>
+              <button type="button" class="btn btn-secondary">
+                Подбор автоматики
+              </button>
+              <button type="button" class="btn btn-secondary">
+                подбор гидроаккумулятора
+              </button>
+            </div>
+          </div>
+        </header>
       </section>
 
-      <section>
-        <div class="alert" role="alert">
+      <section class="container" role="container">
+        <div class="container" role="container">
           <h1 class="alert-heading">Насос базовые понятия. Типы насосов</h1>
         </div>
+        <div class="container container_pump">
+          <div class="container pump">
+            <p class="ppump">
+              <span class="pumpspan">Насо́с</span> — гидравлическая машина,
+              преобразующая механическую энергию приводного двигателя или
+              мускульную энергию (в ручных насосах) в энергию потока жидкости,
+              служащую для перемещения и создания напора жидкостей всех видов,
+              механической смеси жидкости с твёрдыми и коллоидными веществами
+              или сжиженных газов.
+            </p>
+          </div>
+          <div class="container automat"></div>
+        </div>
       </section>
 
-      <section>
+      <section class="container" role="container">
         <div class="alert" role="alert">
           <h3>Падбор насоса для источника</h3>
         </div>
       </section>
 
-      <section>
+      <section class="container" role="container">
         <div class="alert" role="alert">
           <h3>Автоматика для насоса</h3>
         </div>
       </section>
 
-      <section>
+      <section class="container" role="container">
         <div class="alert" role="alert">
           <h3>Выбор автоматики</h3>
         </div>
       </section>
 
-      <section>
+      <section class="container" role="container">
         <div class="alert" role="alert">
           <h3>Контакты</h3>
         </div>
         <div class="card" style="width: 18rem">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <p class="card-text">Найти нас легко</p>
             <a
-              href="https://www.google.com/maps/place/NASOSOV.BY+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D0%B3%D0%B8%D0%BF%D0%B5%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82+%D0%BD%D0%B0%D1%81%D0%BE%D1%81%D0%BE%D0%B2/@53.8738511,27.5174973,17z/data=!3m1!4b1!4m5!3m4!1s0x46dbd014212697d9:0x15df8af85e494af6!8m2!3d53.873848!4d27.519686"
+              href="https://www.google.com/maps/place/NASOSOV.BY+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D0%B3%D0%B8%D0%BF%D0%B5%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82+%D0%BD%D0%B0%D1%81%D0%BE%D1%81%D0%BE%D0%B2/@53.8733371,27.5154534,16.25z/data=!4m8!1m2!2m1!1z0LrQsNGA0YLQsA!3m4!1s0x0:0x15df8af85e494af6!8m2!3d53.8738477!4d27.5196858"
+              target="_blank"
               class="card-link"
               >Карта</a
             >
-            <a href="#" class="card-link">Another link</a>
           </div>
         </div>
       </section>
 
-      <section>
+      <section class="container" role="container">
         <form>
           <div class="form-group">
             <label for="staticEmail" class="col-sm-2 col-form-label"
