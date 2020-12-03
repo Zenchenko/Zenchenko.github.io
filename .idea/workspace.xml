@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99ba7565-ed24-4a55-970a-dc6e9f07d344" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i3uqt7g4MetmhymylAcUonDGIE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\webpack.loc\dist" />
+      <recent name="$PROJECT_DIR$/dist" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99ba7565-ed24-4a55-970a-dc6e9f07d344" name="Default Changelist" comment="" />
+      <created>1601148790468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601148790468</updated>
+      <workItem from="1601148791594" duration="2784000" />
+      <workItem from="1601241254341" duration="2431000" />
+      <workItem from="1601295487469" duration="1658000" />
+      <workItem from="1601307901563" duration="6190000" />
+      <workItem from="1601381571884" duration="32000" />
+      <workItem from="1601382215145" duration="136000" />
+      <workItem from="1601382365047" duration="48000" />
+      <workItem from="1601383271861" duration="72000" />
+      <workItem from="1601384828728" duration="5059000" />
+      <workItem from="1601456582039" duration="26000" />
+      <workItem from="1601482537327" duration="605000" />
+      <workItem from="1601486617096" duration="2408000" />
+      <workItem from="1601536135622" duration="35000" />
+      <workItem from="1602795764649" duration="321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="639" y="178" width="424" height="484" key="FileChooserDialogImpl" timestamp="1601536168851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="639" y="178" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601536168851" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1601151569071" />
+  </component>
+</project>
