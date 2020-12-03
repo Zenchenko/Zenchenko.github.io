@@ -15,7 +15,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Output Management',
+            title: 'Джилекс насосное оборудование, Джилекс автоматика, Джилекс комплексное решение автоматизации ',
         }),
     ],
     output: {
