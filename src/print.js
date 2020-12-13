@@ -1,3 +1,3 @@
 export default function printMe() {
-    console.log('Привет Влад!!!');
+    console.log('Привет Михаил. Ты Смог!!!');
 }

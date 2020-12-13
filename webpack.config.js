@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-
+ 
 module.exports = {
     mode: 'development',
     devtool: 'inline-source-map',
@@ -9,13 +9,13 @@ module.exports = {
         contentBase: './dist',
     },
     entry: {
-        app: './src/index.js',
-        print: './src/print.js',
-        another: './src/another-module.js',
+        indexjs: './src/index.js',
+        indexhtml: './src/index.html',
+        maincss: './src/main.css',
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Джилекс насосное оборудование, Джилекс автоматика, Джилекс комплексное решение автоматизации ',
+            title: 'Джилекс, насосное оборудование, подбор насоса для дома или квартиры',
         }),
     ],
     output: {

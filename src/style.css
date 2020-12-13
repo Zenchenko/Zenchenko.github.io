@@ -1,4 +1,10 @@
 .hello {
     color: red;
-    background: url('./icon.png');
+    background: url('./iconbc.png');
+}
+
+.secttion {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
 }
