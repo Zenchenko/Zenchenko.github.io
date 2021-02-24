@@ -1101,8 +1101,7 @@ button:focus {
     letter-spacing: normal;
     line-height: normal;
     text-align: center;
-    text-transform: uppercase;
-    /* Text style for "Story abou" */
+    text-transform: uppercase; 
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -1136,11 +1135,7 @@ button:focus {
     width: 100%;
     min-height: 410px;
     height: 100%;
-}
-
-.s8_wrapper_bloc_img {
-
-}
+} 
 
 .s8_wrapper_bloc_img h4 {
     width: 100%;
@@ -1450,12 +1445,8 @@ button:focus {
 
 .s11line_tex_wrapper {
     width: 100%;
-    margin: 0 auto 0 30px ;
-}
-
-.s11text {
-
-}
+    margin: 0 auto 0 30px;
+}  
 
 .s11text1 {
     max-width: 767px;
@@ -1512,6 +1503,50 @@ button:focus {
     min-height: 290px;
     height: 100%;
 }
+
+
+
+/*
+-------------------------------
+--  --------      -------------
+--  ------   ---    -----------
+--  ------  -----   -----------
+--  -------------   -----------
+--  -------------   -----------
+--  ------------   ------------
+--  -----------   -------------
+--  ----------   --------------
+--  --------   ----------------
+--  ------           ----------
+-------------------------------
+-------------------------------
+*/
+
+.s12cart {
+    width: 600px;
+    height: 230px;
+}
+
+.s12lineX {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 0;
+}
+
+.cart_el12_p { 
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*
