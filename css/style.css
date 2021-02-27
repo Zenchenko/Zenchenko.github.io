@@ -1,5 +1,7 @@
 body {
+    width: 100vw;
     overflow-x: hidden;
+    border: 1px solid red;
 }
 
 .bloc {
@@ -928,18 +930,19 @@ button:focus {
     background-color: #f8f8f8;
 }
 
-.s7img_tex {
+/* ============sX=========== */
+
+.sXimg_tex {
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 1200px;
-    width: 100%;
-    min-height: 290p;
+    width: 100%; 
     height: 100%;
     margin: auto;
 }
 
-.s7img {
+.sXimg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -948,7 +951,7 @@ button:focus {
     margin: 0 0 0 auto;
 }
 
-.s7img_img {
+.sXimg_img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -962,13 +965,9 @@ button:focus {
     width: 100%;
     height: 100%;
     margin: 0 auto 0 30px ;
-}
+} 
 
-.s7text {
-
-}
-
-.s7text1 {
+.sXtext1 {
     max-width: 767px;
     width: 100%;
     color: #999999;
@@ -984,29 +983,29 @@ button:focus {
     line-height: normal;
 }
 
-.s7line_text {
+.sXline_text {
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-.s7line_bloc {
+.sX7line_bloc {
     display: flex;
     align-items: center;
     width: 60px;
 }
 
-.s7line {
+.sXline {
     width: 60px;
     height: 3px;
     background-color: #f38181;
 }
 
-.s7line_text_p {
+.sXline_text_p {
     margin: 0 auto 0 10px ;
 }
 
-.s7text2 {
+.sXtext2 {
     color: #333333;
     font-family: "Kaushan Script";
     font-size: 24px;
@@ -1017,17 +1016,10 @@ button:focus {
     letter-spacing: normal;
     line-height: normal;
     margin: 0;
-}
-
-.s7strela {
-    min-height: 290px;
-    height: 100%;
-}
+} 
 
 
-
-
-
+ 
 
 /*
 -------------------------------
@@ -1406,104 +1398,24 @@ button:focus {
 -------------------------------
 */
 
-
-
-
-
-
-.section11 {
-    min-height: 290px;
+.section11 { 
     height: 100%;
     background-color: #f8f8f8;
-}
-
-.s11img_tex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-width: 1200px;
-    width: 100%;
-    min-height: 290p;
-    height: 100%;
-    margin: auto;
 }
 
 .s11img {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 290px;
-    height: 290px;
-    margin: 0 0 0 auto;
+    align-items: center; 
+    margin: 0 auto;
 }
 
 .s11img_img {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.s11line_tex_wrapper {
-    width: 100%;
-    margin: 0 auto 0 30px;
-}  
-
-.s11text1 {
-    max-width: 767px;
-    width: 100%;
-    color: #999999;
-    font-family: "Roboto - Light Italic";
-    font-size: 24px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 36px;
-    text-align: left;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-}
-
-.s11line_text {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.s11line_bloc {
-    display: flex;
-    align-items: center;
-    width: 60px;
-}
-
-.s11line {
-    width: 60px;
-    height: 3px;
-    background-color: #f38181;
-}
-
-.s11line_text_p {
-    margin: 0 auto 0 10px ;
-}
-
-.s11text2 {
-    color: #333333;
-    font-family: "Kaushan Script";
-    font-size: 24px;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    margin: 0;
-}
-
-.s11strela {
-    min-height: 290px;
-    height: 100%;
-}
-
+    margin: 30px;
+} 
 
 
 /*
@@ -1522,11 +1434,64 @@ button:focus {
 -------------------------------
 */
 
+
+
+.s12wraper2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    background-image: ;
+    margin: 0 auto;
+}
+
+.section12 {
+    display: flex;
+    background: url(../img/Photo/svg/Layer_53.svg)no-repeat;
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+    background-position: center;
+    background-attachment: fixed ;
+    z-index: 3; 
+}
+
+.section12:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.85);
+    opacity: 0.8;
+    z-index: -2
+}
+
+.s12wraper2_1 {
+    max-width: 515px;
+    min-width: 500px; 
+    width: 100%;
+    margin: 0 0 0 auto;
+    width: 50%;
+    height: 100%;
+}
+
+.s12wraper2_2 {  
+    max-width: 515px; 
+    min-width: 500px;
+    width: 100%;
+    margin: 0 auto 0 0; 
+    width: 50%;
+    height: 100%;
+}
+
 .s12cart {
     display: flex; 
     flex-direction: row;
-    justify-content: space-around;
-    max-width: 600px;
+    justify-content: space-around; 
     width: 100%;
     max-height: 230px; 
     height: 100%;
@@ -1543,6 +1508,10 @@ button:focus {
     height: 3px;
     background-color: #f38181;
     margin: 0;
+}
+
+.cart_el12_1 {
+    margin: 0; 
 }
 
 .cart_el2_p1 {  
@@ -1579,10 +1548,15 @@ button:focus {
     line-height: normal;
 }
 
-.cart_el12_p { 
-    /* Style for "Lorem ipsu" */
+.cart_el12_2 {
     width: 373px;
     height: 64px;
+    margin: 24px auto 70px auto;
+    padding: 0; 
+}
+
+.cart_el12_p {   
+    margin: 0;
     color: #999999;
     font-family: Roboto;
     font-size: 15px;
@@ -1591,6 +1565,7 @@ button:focus {
     letter-spacing: normal;
     line-height: 24px;
     text-align: left;
+    text-align: top;
     /* Text style for "Lorem ipsu" */
     font-style: normal;
     letter-spacing: normal;
@@ -1733,7 +1708,162 @@ button:focus {
 */
 
 
+/* ============sX=========== */
 
+.sXimg_tex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1200px;
+    width: 100%; 
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.sXimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 290px;
+    margin: 0 0 0 auto;
+}
+
+.sXimg_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+    border: 3px solid #95e1d3;
+}
+
+.sXline_tex_wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 0 30px ;
+} 
+
+.sXtext1 {
+    max-width: 767px;
+    width: 100%;
+    color: #999999;
+    font-family: "Roboto - Light Italic";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.sXline_text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.sX7line_bloc {
+    display: flex;
+    align-items: center;
+    width: 60px;
+}
+
+.sXline {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+.sXline_text_p {
+    margin: 0 auto 0 10px ;
+}
+
+.sXtext2 {
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0;
+} 
+
+
+ 
+
+
+
+/*
+-------------------------------
+--  --------      -------------
+--  ------   ---    -----------
+--  ------  -----   -----------
+--  -------------   -----------
+--  -------------   -----------
+--  ------------   ------------
+--  -----------   -------------
+--  ----------   --------------
+--  --------   ----------------
+--  ------           ----------
+-------------------------------
+-------------------------------
+*/
+.s12wraper2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%; 
+    margin: 0 auto;
+}
+
+.section12 {
+    display: block;
+    left: 0;
+    right: 0;
+    background: none; 
+    position: none; 
+    height: 100%; 
+    background-image: none;
+    background-attachment: none;
+    z-index: 3; 
+}
+
+.section12:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.85);
+    opacity: 0.8;
+    z-index: -2
+}
+
+.s12wraper2_1 {
+    max-width: 515px;  
+    width: 100%;
+    margin: 0 auto; 
+    height: 100%;
+}
+
+.s12wraper2_2 {  
+    max-width: 515px;  
+    width: 100%;
+    margin: 0 auto;  
+    height: 100%;
+}
 
 
 @media (max-width: 900px) {
@@ -1933,11 +2063,7 @@ button:focus {
 .sXline_tex_wrapper {
     width: 100%;
     margin: 0 auto 0 30px ;
-}
-
-.s7text {
-
-}
+} 
 
 .s7text1 {
     width: 100%;
@@ -2182,7 +2308,7 @@ button:focus {
 
 
 
-/*
+    /*
     -------------------------------
     ------------    ---------------
     ----------  ---  --------------
@@ -2199,7 +2325,7 @@ button:focus {
     ----------  ---  --------------
     ------------   ----------------
     -------------------------------
-*/
+    */
 
     .s3flex_wrap {
         flex-direction: column;
@@ -2223,96 +2349,113 @@ button:focus {
     .s3text_mw600_bottom {
         border-bottom: none;
     }
-/*
--------------------------------
--------   ------   ------------
--------   ------   ------------
--------   ------   ------------
--------   ------   ------------
--------   ------   ------------
--------            ------------
-----------------   ------------
-----------------   ------------
-----------------   ------------
-----------------   ------------
-----------------   ------------
-----------------   ------------
--------------------------------
--------------------------------
-*/
+
+
+    /*
+    -------------------------------
+    -------   ------   ------------
+    -------   ------   ------------
+    -------   ------   ------------
+    -------   ------   ------------
+    -------   ------   ------------
+    -------            ------------
+    ----------------   ------------
+    ----------------   ------------
+    ----------------   ------------
+    ----------------   ------------
+    ----------------   ------------
+    ----------------   ------------
+    -------------------------------
+    -------------------------------
+    */
 
 
 
 
-.s4cart {
-    min-width: 300px;
-    width: 80%;
-    margin: 0 auto;
+    .s4cart {
+        min-width: 300px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .s4img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .cart_el2_1 {
+        font-size: calc(4vw - 0px);
+        margin: 5%;
+    }
+
+    .cart_el2_2 {
+        font-size: calc(4vw - 0px);
+    }
+
+
+    /*
+    -------------------------------
+    -------------------------------
+    --------              ---------
+    --------   --------------------
+    --------   --------------------
+    --------   --------------------
+    --------          -------------
+    ---------------    ------------
+    ----------------   ------------
+    ----------------   ------------
+    --------   -----   ------------
+    --------   ----    ------------
+    --------    --    -------------
+    ----------      ---------------
+    -------------------------------
+    -------------------------------
+    */
+
+
+
+
+
+    /*
+    -------------------------------
+    -------------------------------
+    ---------         -------------
+    --------    ----   ------------
+    --------   -----   ------------
+    --------   --------------------
+    --------          -------------
+    --------   ----    ------------
+    --------   -----   ------------
+    --------   -----   ------------
+    --------   -----   ------------
+    --------   ----    ------------
+    --------    --    -------------
+    ----------      ---------------
+    -------------------------------
+    -------------------------------
+    */
+    
+
+
+
+    /*
+    -------------------------------
+    --  --------      -------------
+    --  ------   ---    -----------
+    --  ------  -----   -----------
+    --  -------------   -----------
+    --  -------------   -----------
+    --  ------------   ------------
+    --  -----------   -------------
+    --  ----------   --------------
+    --  --------   ----------------
+    --  ------           ----------
+    -------------------------------
+    -------------------------------
+    */ 
+
+
+
+
+
 }
-
-.s4img {
-    width: 50px;
-    height: 50px;
-}
-
-.cart_el2_1 {
-    font-size: calc(4vw - 0px);
-    margin: 5%;
-}
-
-.cart_el2_2 {
-    font-size: calc(4vw - 0px);
-}
-
-
-/*
--------------------------------
--------------------------------
---------              ---------
---------   --------------------
---------   --------------------
---------   --------------------
---------          -------------
----------------    ------------
-----------------   ------------
-----------------   ------------
---------   -----   ------------
---------   ----    ------------
---------    --    -------------
-----------      ---------------
--------------------------------
--------------------------------
-*/
-
-
-
-
-
-/*
--------------------------------
--------------------------------
----------         -------------
---------    ----   ------------
---------   -----   ------------
---------   --------------------
---------          -------------
---------   ----    ------------
---------   -----   ------------
---------   -----   ------------
---------   -----   ------------
---------   ----    ------------
---------    --    -------------
-----------      ---------------
--------------------------------
--------------------------------
-*/
-
-}
-
-
-
-
-
-
-
-
