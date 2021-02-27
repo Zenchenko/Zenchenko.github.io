@@ -1,7 +1,6 @@
 body {
     width: 100vw;
-    overflow-x: hidden;
-    border: 1px solid red;
+    overflow-x: hidden; 
 }
 
 .bloc {
@@ -930,19 +929,7 @@ button:focus {
     background-color: #f8f8f8;
 }
 
-/* ============sX=========== */
-
-.sXimg_tex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 1200px;
-    width: 100%; 
-    height: 100%;
-    margin: auto;
-}
-
-.sXimg {
+.s7img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -951,7 +938,7 @@ button:focus {
     margin: 0 0 0 auto;
 }
 
-.sXimg_img {
+.s7img_img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -961,15 +948,28 @@ button:focus {
     border: 3px solid #95e1d3;
 }
 
+/* ============sX=========== */
+
+.sXimg_tex {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    align-items: center; 
+    max-width: 1200px;
+    width: 100%; 
+    height: 100%;
+    margin: 0 auto;
+} 
+
 .sXline_tex_wrapper {
     width: 100%;
     height: 100%;
     margin: 0 auto 0 30px ;
 } 
 
-.sXtext1 {
-    max-width: 767px;
+.sXtext1 { 
     width: 100%;
+    margin: 0;
     color: #999999;
     font-family: "Roboto - Light Italic";
     font-size: 24px;
@@ -985,14 +985,15 @@ button:focus {
 
 .sXline_text {
     display: flex;
-    align-items: center;
-    width: 100%;
+    justify-content: start;
+    align-items: center; 
+    width: 100%; 
 }
 
 .sX7line_bloc {
     display: flex;
-    align-items: center;
-    width: 60px;
+    width: 100%;
+    align-items: center; 
 }
 
 .sXline {
@@ -1002,7 +1003,7 @@ button:focus {
 }
 
 .sXline_text_p {
-    margin: 0 auto 0 10px ;
+    margin: 0 0 0 15px; 
 }
 
 .sXtext2 {
@@ -1041,10 +1042,7 @@ button:focus {
 */
 
 
-
-
-
-
+ 
 
 .section8 {
     display: flex;
@@ -1101,8 +1099,7 @@ button:focus {
 }
 
 .s8text3, .bloc_text5 {
-    max-width: 1200px;
-    width: auto;
+    max-width: 1200px; 
     height: 100%;
     color: #999999;
     font-family: Roboto;
@@ -1121,13 +1118,18 @@ button:focus {
 /*=========================*/
 
 .s8imq {
-    display: flex;
-/*    flex-wrap: wrap;*/
-    max-width: 1200px;
+    display: flex;  
+    justify-content: space-between; 
     width: 100%;
     min-height: 410px;
     height: 100%;
-} 
+    margin: 0;
+    padding: 0; 
+}
+
+.s8_wrapper_bloc_img {
+    margin: 0; 
+}
 
 .s8_wrapper_bloc_img h4 {
     width: 100%;
@@ -1171,7 +1173,8 @@ button:focus {
     width: 380px;
     height: 470px;
     display: inline-block;
-    position: relative;
+    position: relative; 
+    background-position: center;
     top:  0;
     left:  0;
     line-height: 0;
@@ -1204,23 +1207,17 @@ button:focus {
 }
 
 .s8_imq1 {
-    background: center url("../img/Photo/Layer_16.png")no-repeat;
-    background-position: center;
-    margin: 15px 0 15px 15px;
+    background: center url("../img/Photo/Layer_16.png")no-repeat;  
 }
 
 
 
 .s8_imq2 {
-    background: center url("../img/Photo/Layer_18.png")no-repeat;
-    background-position: center;
-    margin: 15px;
+    background: center url("../img/Photo/Layer_18.png")no-repeat;  
 }
 
 .s8_imq3 {
-    background: url("../img/Photo/Layer_19.png")no-repeat;
-    background-position: center;
-    margin: 15px 15px 15px 0;
+    background: url("../img/Photo/Layer_19.png")no-repeat;  
 }
 
 .s8_imq1:hover {
@@ -1236,6 +1233,10 @@ button:focus {
 .s8_imq3:hover {
     top: -10px;
     left: -10px;
+}
+
+.s8_wrapper_bloc_img {
+    width: 380px; 
 }
 
 .users_column {
@@ -1440,8 +1441,7 @@ button:focus {
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
-    width: 100%;
-    background-image: ;
+    width: 100%; 
     margin: 0 auto;
 }
 
@@ -1452,7 +1452,7 @@ button:focus {
     position: relative;
     line-height: 0;
     background-position: center;
-    background-attachment: fixed ;
+    background-attachment: fixed;
     z-index: 3; 
 }
 
@@ -1497,10 +1497,10 @@ button:focus {
     height: 100%;
 }
 
-.sXimg { 
+.s12img { 
     width: 110px;
     height: 110px;
-    margin: 0 30px;
+    margin: 0;
 }
 
 .s12lineX {
@@ -1714,11 +1714,10 @@ button:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 1200px;
+    max-width: 1200px;
     width: 100%; 
     height: 100%;
-    margin: 0 auto;
-    border: 1px solid red;
+    margin: 0 auto;  
 }
 
 .sXimg {
@@ -1798,7 +1797,143 @@ button:focus {
 } 
 
 
+ /*
+-------------------------------
+-------------------------------
+--------               --------
+--------   ---------   --------
+-------- ----------   ---------
+------------------   ----------
+-----------------   -----------
+----------------   ------------
+----------    -   -    --------
+--------------   --------------
+-------------   ---------------
+------------   ----------------
+-----------   -----------------
+----------   ------------------
+---------   -------------------
+--------   -------------------
+-------------------------------
+-------------------------------
+*/
+
+
+.section7 { 
+    height: 100%; 
+}
+
+.s7img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 290px;
+    width: 100%;
+    height: 290px;
+    margin: 0;
+}
+
+.s7img_img { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;  
+}
+
+/* ============sX=========== */
+
+.sXimg_tex {
+    display: flex; 
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 0 auto;
+} 
+
+.sXline_tex_wrapper {  
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sXtext1 { 
+    width: 100%;
+}
+
+.sXtext1_p {
+    color: #999999;
+    font-family: "Roboto - Light Italic";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+} 
+
+.sXline_text {
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+    max-width: 480px;
+    width: 100%; 
+}
+
+.sX7line_bloc {
+    display: flex;
+    width: 100%;
+    align-items: center; 
+}
  
+/*
+-------------------------------
+------------    ---------------
+----------  ---  --------------
+---------  -----  -------------
+---------  -----  -------------
+---------  ----  --------------
+----------  -  ----------------
+-----------   -----------------
+----------  -  ----------------
+----------  --  ---------------
+---------  ----  --------------
+---------  -----  -------------
+---------  -----  -------------
+----------  ---  --------------
+------------   ----------------
+-------------------------------
+*/
+
+
+ 
+ 
+/*=========================*/
+
+.s8imq { 
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap; 
+    flex-direction: column;
+}  
+
+/*=========================*/
+
+.s8imq {
+    display: flex;  
+    justify-content: space-around; 
+    width: 100%;
+    min-height: 410px;
+    height: 100%; 
+}
+
+.s8_wrapper_bloc_img {
+    min-width: 380px;
+    margin: 0 auto; 
+}  
 
 
 
@@ -1822,7 +1957,7 @@ button:focus {
     flex-wrap: wrap;
     max-width: 1200px;
     width: 100%; 
-    margin: 0 auto;
+    margin: 90px auto 0 auto;
 }
 
 .section12 {
@@ -1864,6 +1999,20 @@ button:focus {
     margin: 0 auto;  
     height: 100%;
 }
+
+
+
+
+/*
+@media@media@media@media@media@media@media@media
+@media@media@media@media@media@media@media@media
+@media@media@media@media@media@media@media@media
+@media@media@media@media@media@media@media@media
+@media@media@media@media@media@media@media@media
+@media@media@media@media@media@media@media@media
+*/
+
+
 
 
 @media (max-width: 900px) {
@@ -2027,97 +2176,7 @@ button:focus {
 --------   -------------------
 -------------------------------
 -------------------------------
-*/
-
-
-.section7 {
-    width: 100%;
-    height: 100%;
-}
-
-.s7img_tex_wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.s7img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.s7img_img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-    margin-right: 30px;
-    border: 3px solid #95e1d3;
-}
-
-.sXline_tex_wrapper {
-    width: 100%;
-    margin: 0 auto 0 30px ;
-} 
-
-.s7text1 {
-    width: 100%;
-    color: #999999;
-    font-family: "Roboto - Light Italic";
-    font-size: 24px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 36px;
-    text-align: left;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-}
-
-.s7line_text {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.s7line_bloc {
-    display: flex;
-    align-items: center;
-    width: 60px;
-}
-
-.s7line {
-    width: 60px;
-    height: 3px;
-    background-color: #f38181;
-}
-
-.s7line_text_p {
-    margin: 0 auto;
-}
-
-.s7text2 {
-    color: #333333;
-    font-family: "Kaushan Script";
-    font-size: 24px;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    margin: 0;
-}
-
-
-
-
+*/ 
 
 
 
@@ -2289,6 +2348,14 @@ button:focus {
 
 
 
+/*
+@media@media@media@media@media@media@media@media
+@media@media@media@media@media@media@media@media
+@media@media@media@media@media@media@media@media
+@media@media@media@media@media@media@media@media
+@media@media@media@media@media@media@media@media
+@media@media@media@media@media@media@media@media
+*/
 
 
 
@@ -2435,6 +2502,35 @@ button:focus {
     -------------------------------
     */
     
+
+ 
+/*
+-------------------------------
+------------    ---------------
+----------  ---  --------------
+---------  -----  -------------
+---------  -----  -------------
+---------  ----  --------------
+----------  -  ----------------
+-----------   -----------------
+----------  -  ----------------
+----------  --  ---------------
+---------  ----  --------------
+---------  -----  -------------
+---------  -----  -------------
+----------  ---  --------------
+------------   ----------------
+-------------------------------
+*/
+
+
+ 
+ 
+/*=========================*/
+
+ 
+  
+ 
 
 
 
