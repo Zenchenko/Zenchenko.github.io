@@ -381,8 +381,7 @@ button:focus {
     height: 100%;
 }
 
-.bloc_text_header_text1{
-    /* Style for "What we do" */
+.bloc_text_header_text1{ 
     width: 100%;
     height: 23px;
     justify-content: row;
@@ -393,8 +392,7 @@ button:focus {
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    text-align: center;
-    /* Text style for "W, hat we" */
+    text-align: center; 
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -412,8 +410,7 @@ button:focus {
     letter-spacing: normal;
     line-height: normal;
     text-align: center;
-    text-transform: uppercase;
-    /* Text style for "Story abou" */
+    text-transform: uppercase; 
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -1270,8 +1267,7 @@ button:focus {
     text-transform: uppercase;
     font-style: normal;
     letter-spacing: normal;
-    line-height: normal;
-
+    line-height: normal; 
     margin: 15px auto;
 }
 
@@ -1288,8 +1284,7 @@ button:focus {
     text-align: center;
     font-style: normal;
     letter-spacing: normal;
-    line-height: normal;
-
+    line-height: normal; 
     margin: 0 auto 100px auto;
 }
 
@@ -1704,10 +1699,174 @@ button:focus {
 
 
 
+/*
+-------------------------------
+--  --------    ---------------
+--  ------  ---  --------------
+--  -----  -----  -------------
+--  -----  -----  -------------
+--  -----------  --------------
+--  ---------  ----------------
+--  --------  -----------------
+--  ---------  ----------------
+--  ----------  ---------------
+--  -----------  --------------
+--  -----  -----  -------------
+--  -----  -----  -------------
+--  ------  ---  --------------
+--  --------   ----------------
+-------------------------------
+*/
 
 
 
+.s13bloc_cart {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 47px auto 100px auto;
+}
 
+.s13cart {
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
+}
+
+.s13cart_headerimg{ 
+    /* display: inline-block; */
+    position: relative;
+    display: flex;
+    z-index: 1;
+}
+
+.s13bloc_img {  
+    width: 100%;
+    height: 240px;
+    margin: 0 auto;
+}
+
+.s13bloc_text { 
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 70px; 
+    background-color: #95e1d3;
+    top: 160px;
+    left: -10px;
+    z-index: 2;
+}
+
+.s13hnumber, .s13htext {  
+    color: #ffffff;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.s13hnumber{  
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase; 
+}
+
+.s13htext {
+    font-family: "Roboto Light";
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.s13_cart_text {
+    max-width: 380px;
+    width: 100%;
+    min-height: 100px;
+    height: 100%; 
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.s13_cart_text1 { 
+    width: 223px;
+    height: 10px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase; 
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.s13_cart_text2 { 
+    width: 346px;
+    height: 39px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left; 
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.s13_cart_footer {
+    display: flex;
+    min-width: 380px;
+    width: 100%; 
+    height: 15px;
+    margin: 20px auto; 
+}
+
+.s13footer_1, .s13footer_2 { 
+    display: flex; 
+    flex-direction: row;
+    width: 50px;
+    height: 12px; 
+}
+
+.s13fbloc_img {
+    width: 20px;  
+    height: 12px;
+    margin: 0 auto 0 0
+} 
+
+.s13fbloc_P {
+    width: 30px;
+    height: 12px;
+    color: #999999;
+    margin-top: -15px;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: normal; 
+    text-align: left;  
+    letter-spacing: normal;
+    line-height: normal;
+} 
 
 
 
@@ -2317,6 +2476,166 @@ button:focus {
 }
 
 
+/*
+-------------------------------
+--  --------    ---------------
+--  ------  ---  --------------
+--  -----  -----  -------------
+--  -----  -----  -------------
+--  -----------  --------------
+--  ---------  ----------------
+--  --------  -----------------
+--  ---------  ----------------
+--  ----------  ---------------
+--  -----------  --------------
+--  -----  -----  -------------
+--  -----  -----  -------------
+--  ------  ---  --------------
+--  --------   ----------------
+-------------------------------
+*/
+
+
+
+.s13bloc_cart {      
+    flex-direction: column; 
+    margin: 0 auto;
+}
+
+.s13cart {  
+    width: 100%;
+    margin: 15px auto;
+}
+
+.s13cart_headerimg{   
+    margin: 0 auto;
+}
+
+.s13bloc_img {   
+    margin: 20px auto;
+}
+
+.s13img {  
+    margin: 0 auto;
+}
+
+.s13bloc_text { 
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 70px; 
+    background-color: #95e1d3;
+    top: 160px;
+    left: -10px;
+    z-index: 2;
+}
+
+.s13hnumber, .s13htext {  
+    color: #ffffff;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.s13hnumber{  
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase; 
+}
+
+.s13htext {
+    font-family: "Roboto Light";
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.s13_cart_text {
+    max-width: 380px;
+    width: 100%;
+    min-height: 100px;
+    height: 100%; 
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.s13_cart_text1 { 
+    width: 223px;
+    height: 10px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase; 
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.s13_cart_text2 { 
+    width: 346px;
+    height: 39px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left; 
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.s13_cart_footer {
+    display: flex;
+    min-width: 380px;
+    width: 100%; 
+    height: 15px;
+    margin: 20px auto; 
+}
+
+.s13footer_1, .s13footer_2 { 
+    display: flex; 
+    width: 50px;
+    height: 12px; 
+}
+
+.s13fbloc_img {
+    width: 20px;  
+    height: 12px;
+    margin: 0 auto 0 0
+} 
+
+.s13fbloc_P {
+    width: 30px;
+    height: 12px;
+    color: #999999;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: normal; 
+    text-align: left;  
+    letter-spacing: normal;
+    line-height: normal;
+} 
 
 
 /*
@@ -2661,7 +2980,58 @@ button:focus {
 }
 
 
+/*
+-------------------------------
+--  --------    ---------------
+--  ------  ---  --------------
+--  -----  -----  -------------
+--  -----  -----  -------------
+--  -----------  --------------
+--  ---------  ----------------
+--  --------  -----------------
+--  ---------  ----------------
+--  ----------  ---------------
+--  -----------  --------------
+--  -----  -----  -------------
+--  -----  -----  -------------
+--  ------  ---  --------------
+--  --------   ----------------
+-------------------------------
+*/  
 
+.s13cart {  
+    min-width: 450px;
+    width: 100%;
+    margin: 15px auto;
+}
+
+.s13_cart_text1 { 
+    width: 223px;
+    height: 22px; 
+    font-size: 22px; 
+} 
+
+.s13_cart_text2 {  
+    font-size: 22px; 
+}
+
+ 
+
+.s13footer_1, .s13footer_2 {  
+    width: 50px;
+    height: 22px; 
+}
+
+.s13fbloc_img {
+    width: 30px;  
+    height: 22px; 
+} 
+
+.s13fbloc_P {
+    width: 30px;
+    height: 22px; 
+    font-size: 22px; 
+} 
 
 
 /*
@@ -2820,29 +3190,29 @@ button:focus {
     
 
  
-/*
--------------------------------
-------------    ---------------
-----------  ---  --------------
----------  -----  -------------
----------  -----  -------------
----------  ----  --------------
-----------  -  ----------------
------------   -----------------
-----------  -  ----------------
-----------  --  ---------------
----------  ----  --------------
----------  -----  -------------
----------  -----  -------------
-----------  ---  --------------
-------------   ----------------
--------------------------------
-*/
+    /*
+    -------------------------------
+    ------------    ---------------
+    ----------  ---  --------------
+    ---------  -----  -------------
+    ---------  -----  -------------
+    ---------  ----  --------------
+    ----------  -  ----------------
+    -----------   -----------------
+    ----------  -  ----------------
+    ----------  --  ---------------
+    ---------  ----  --------------
+    ---------  -----  -------------
+    ---------  -----  -------------
+    ----------  ---  --------------
+    ------------   ----------------
+    -------------------------------
+    */
 
 
- 
- 
-/*=========================*/
+    
+    
+    /*=========================*/
 
  
   
@@ -2868,6 +3238,27 @@ button:focus {
 
 
 
+    /*
+        -------------------------------
+        --  --------    ---------------
+        --  ------  ---  --------------
+        --  -----  -----  -------------
+        --  -----  -----  -------------
+        --  -----------  --------------
+        --  ---------  ----------------
+        --  --------  -----------------
+        --  ---------  ----------------
+        --  ----------  ---------------
+        --  -----------  --------------
+        --  -----  -----  -------------
+        --  -----  -----  -------------
+        --  ------  ---  --------------
+        --  --------   ----------------
+        -------------------------------
+    */
 
+
+
+     
 
 }
