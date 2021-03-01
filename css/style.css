@@ -1948,6 +1948,203 @@ button:focus {
 
 
 
+    /* 
+    -------------------------------
+    -------------------------------
+    --  ----              ---------
+    --  ----   --------------------
+    --  ----   --------------------
+    --  ----   --------------------
+    --  ----          -------------
+    --  -----------    ------------
+    --  ------------   ------------
+    --  ------------   ------------
+    --  ----   -----   ------------
+    --  ----   ----    ------------
+    --  ----    --    -------------
+    --  ------      ---------------
+    -------------------------------
+    ------------------------------- 
+    */
+
+    .s15bloc_wr {
+        width: 100%;
+        height: 100%; 
+    }
+
+    .s15bloc_wrapper1 {
+        display: flex;
+    }
+
+    .s15bloc_ws {
+        max-height: 500px;
+        height: 100%;
+    }
+
+
+/* =============s15bloc_w1=============== */
+
+    .s15bloc_w1 { 
+        min-width: 462px; 
+        width: 100%;  
+    }
+
+    .s15bloc_w1 {
+        max-width: 335px;
+        width: 100%;
+    }
+
+    .s15bloc_w3 {
+        max-width: 270px;
+        width: 100%;
+    }
+
+    .s15bloc_ws {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .s15w1_1 {
+        max-height: 245px;
+        height: 100%;
+        border-bottom: 1px solid #e5e5e5; ;
+    }
+
+    .s15w1_1_logo { 
+        width: 131px;
+        height: 46px;
+    }
+
+    .s15f_logo {  
+        color: #cccccc;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left; 
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+
+    .s15flogo_span { 
+        font-size: 18px;
+    }
+
+    .s15w1_1_b { 
+        min-width: 462px;
+        width: 100%;
+        min-height: 170px;
+        height: 100%; 
+        margin: 0;
+    }
+
+    .s15b_p {
+        color: #999999;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: left; 
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+
+    .s15w1_1_f { 
+        display: flex;
+        width: 96px;
+        height: 15px; 
+        margin: 20px auto 0 0;
+    }
+
+    .s15w1_1_fp { 
+        color: #333333; 
+        font-size: 14px;
+        margin-top: -70px;  
+    }
+
+    .s15w1_1_fspan {
+        font-size: 18px; 
+        font-family: "Montserrat - Regular"; 
+    }
+
+    .s15w1_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .s15w1_set {
+        display: flex; 
+        justify-content: start;
+        align-items: center;
+    }
+
+    .s15w1_set_text {
+        display: flex; 
+        margin: 0 10px 0 0;
+    }
+
+    .s15set_text { 
+        color: #999999; 
+        font-size: 15px;
+        font-weight: 400;  
+    } 
+
+    .s15set_img {   
+        height: 16px;
+        margin: 0 6px;
+    }
+
+    .s15forma {
+        min-width: 380px;
+        width: 100%; 
+        height: 40px;
+    }
+
+    .s15forma_text {
+        width: 230px;
+        min-height: 100%;
+        margin: 0;
+    }
+
+    .s15forma_submit { 
+        background-color: #95e1d3;
+        margin: 0;
+    }
+
+    input[value=Subscribe] {  
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700; 
+        text-transform: uppercase;  
+      }
+
+    .s15forma_button { 
+        width: 150px;
+        height: 40px;
+        margin: 0;
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700; 
+        text-transform: uppercase;  
+    }
+
+
+
+
+
+
+
+
+
 
 
 
