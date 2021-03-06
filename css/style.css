@@ -17,11 +17,7 @@ body {
     width: 100%;
     flex-direction: column;
     margin: 0 auto;
-}
-
-.red {
-    border: 1px solid red;
-}
+} 
 /*
 --------------------------------------
 -----------------    -----------------
@@ -1990,7 +1986,7 @@ button:focus {
     }   
 
     .s15w1_1 {
-        max-height: 245px;
+        min-height: 245px;
         height: 100%;
         margin: 0;
         border-bottom: 1px solid #e5e5e5; ;
