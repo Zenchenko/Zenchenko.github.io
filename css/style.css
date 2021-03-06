@@ -19,7 +19,9 @@ body {
     margin: 0 auto;
 }
 
-
+.red {
+    border: 1px solid red;
+}
 /*
 --------------------------------------
 -----------------    -----------------
@@ -198,7 +200,7 @@ a:hover {
     font-weight: 400;
     text-align: center;
 }
-
+/* TODO */
 .welcome {
     margin: 0;
     margin: 100px auto;
@@ -1968,28 +1970,16 @@ button:focus {
     */
 
     .s15bloc_wr {
-        min-width: 300px;
-        width: 100%;
-        height: 100%; 
-    }
-
-    .s15bloc_wrapper1 {
         display: flex;
-    }
-
+        justify-content: row;  
+    }   
+    
     .s15bloc_ws {
-        max-height: 500px;
-        height: 100%;
+        display: flex;
+        flex-direction: column; 
+        justify-content: start; 
+        /* border: 1px solid red;  */
     }
-
-    .s15container {
-        min-width: 1200px;
-        width: 100%;
-        flex-wrap: wrap;
-    }
-
-
-/* =============s15bloc_w1=============== */
 
     .s15bloc_w1 { 
         max-width: 462px; 
@@ -1997,13 +1987,7 @@ button:focus {
         min-height: 420px;
         height: 100%;
         margin: 70px 0 0 0 ;  
-    }  
-
-    .s15bloc_ws {
-        display: flex;
-        flex-direction: column; 
-        justify-content: start; 
-    }
+    }   
 
     .s15w1_1 {
         max-height: 245px;
@@ -2236,11 +2220,11 @@ button:focus {
     }
 
     .s15w3_bloc1 {
+        display: flex;
+        justify-content: start;
         max-width: 100px; 
-        width: 100%;
-        height: 14px;    
-         
-    }
+        width: 100%;   
+    } 
 
     .s15w3_1_hp { 
         color: #333333;
@@ -2293,6 +2277,16 @@ button:focus {
 
 
 
+
+
+
+
+
+
+
+
+
+
     /*
     @media@media@media@media@media@media@media@media
     @media@media@media@media@media@media@media@media
@@ -2300,15 +2294,28 @@ button:focus {
     @media@media@media@media@media@media@media@media
     @media@media@media@media@media@media@media@media
     @media@media@media@media@media@media@media@media
-    */
-
-
-
-
-
+    */ 
 
     @media (max-width: 1200px) {
- 
+
+
+        .bloc { 
+            width: 100%; 
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        
+        .container {  
+            width: 100%; 
+        } 
+
+
+        /* ================== */
+
+
+
+
             .section1 { 
                 background: none;
             }
@@ -3040,7 +3047,63 @@ button:focus {
             margin: 0 auto;
             flex-wrap: wrap;
         }
-    }   
+
+/* 
+    -------------------------------
+    -------------------------------
+    --  ----              ---------
+    --  ----   --------------------
+    --  ----   --------------------
+    --  ----   --------------------
+    --  ----          -------------
+    --  -----------    ------------
+    --  ------------   ------------
+    --  ------------   ------------
+    --  ----   -----   ------------
+    --  ----   ----    ------------
+    --  ----    --    -------------
+    --  ------      ---------------
+    -------------------------------
+    ------------------------------- 
+    */
+
+    .s15bloc_wr {  
+        flex-direction: column; 
+        margin: 10px auto;
+    }    
+
+    .s15bloc_ws {
+        justify-content: none;
+        margin: 20px auto;
+    }
+
+    .s15w1_1_logo {
+        margin: 20px auto; 
+    }
+
+    .s15w2_bloc1 { 
+        margin: 20px auto; 
+    }
+
+    .s15w3_bloc1 { 
+        margin: 20px auto; 
+    }
+
+    .s15w3_bloc2 { 
+        margin: 5px auto; 
+    } 
+
+    .s15w3_bloc3 { 
+        margin: 15px auto;
+    }
+
+    .s15w3_1_fp {  
+        width: 100%; 
+        height: 100%;
+        margin: 15px auto;
+    }
+}    
+
 
     /*
     @media@media@media@media@media@media@media@media
@@ -3054,7 +3117,8 @@ button:focus {
 
 
 
-    @media (max-width: 900px) {
+    @media (max-width: 900px) 
+    {
 
 
 
@@ -3438,6 +3502,26 @@ button:focus {
     } 
 
 
+
+    /* 
+    -------------------------------
+    -------------------------------
+    --  ----              ---------
+    --  ----   --------------------
+    --  ----   --------------------
+    --  ----   --------------------
+    --  ----          -------------
+    --  -----------    ------------
+    --  ------------   ------------
+    --  ------------   ------------
+    --  ----   -----   ------------
+    --  ----   ----    ------------
+    --  ----    --    -------------
+    --  ------      ---------------
+    -------------------------------
+    ------------------------------- 
+    */ 
+
     /*
     @media@media@media@media@media@media@media@media
     @media@media@media@media@media@media@media@media
@@ -3449,10 +3533,11 @@ button:focus {
 
 
 
+}
 
 
-
-    @media (max-width: 600px) {
+    @media (max-width: 600px) 
+{
 
         .hedF p {
             margin: auto;
