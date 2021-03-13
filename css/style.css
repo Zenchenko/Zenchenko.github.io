@@ -1465,9 +1465,11 @@ button:focus {
     margin: 0;
 }
 
-.s10_w2_1 {
-    max-width: 960px;
+.s10_w2 {
+    /* max-width: 960px; */
     width: 100%;
+    height: 100%;
+    margin: 0 auto; 
 }
 
 .s10_wrapper2_2 {
@@ -1479,9 +1481,8 @@ button:focus {
 
 
 .s10img-svg, .s10img-svg2_2 {
-    max-width: auto;
-    width: 25vw;
-    height: auto;
+    max-width: 100%;
+    width: 25vw; 
     margin: 0;
     padding: 0;
 }
@@ -1490,7 +1491,7 @@ button:focus {
     width: 25vw;
     max-width: auto;
     height: 100%;
-    margin: 0;
+    margin-top: 0;
     padding: 0;
 }
 
