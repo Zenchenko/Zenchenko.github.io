@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 <body> 
-    <section class="vh-100 section section_1 container">
+    <section id="section_1" class="vh-100 section section_1 container">
         <header class="header"> 
             <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light"> 
                 <div class="container-fluid">
@@ -23,10 +23,10 @@
                     </button> 
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div class="navbar-nav"> 
-                            <a class="nav-link" href="#">Главная</a>
-                            <a class="nav-link" href="#">Опыт</a>
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Полезное</a>
-                            <a class="nav-link" aria-current="page" href="#">Контакты</a>
+                            <a class="nav-link" href="#section_1">Главная</a>
+                            <a class="nav-link" href="#section_2">Контакты</a>
+                            <!-- <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Полезное</a>
+                            <a class="nav-link" aria-current="page" href="#">Контакты</a> -->
                         </div>
                     </div>
                 </div>
@@ -34,19 +34,37 @@
         </header>
         <div class="col-12 justify-content-center d-flex">
             <ul class="nav">
-                <li class="nav-item">
+                <li class="nav-item p-5">
                     <a class="nav-link shadow p-3 mb-5 bg-white rounded p-2 mt-5 " href="indexIsite.html">свёрстан1</a>
                 </li> 
+                <li class="nav-item p-5">
+                    <a class="nav-link shadow p-3 mb-5 bg-white rounded p-2 mt-5 " href="#">свёрстан2</a>
+                </li>
+                <li class="nav-item p-5">
+                    <a class="nav-link shadow p-3 mb-5 bg-white rounded p-2 mt-5 " href="#">свёрстан3</a>
+                </li>
             </ul>  
         </div>
 
     </section>
-    <!-- <section class="vh-100 section section_2 container">
-        
-    </section>
-    <section class="vh-100 section section_3 container">
-        
-    </section> -->
+
+    <footer class="footer section section_2 container" id="section_2">
+
+        <div class="container p-3">
+            <div class="row col-12">
+                <div class="col-sm col-6">
+                    <img src="add/img/i_1.png" class="footer-img" alt="foto">
+                </div>
+                <div class="col-sm col-6"> 
+                    <p class="footer-tf" >+375 (33) 9039734</p>
+                </div>
+                <div class="col-sm col-12"> 
+                    <p class="text-black-50 justify-content-center">г. Минск 2021 г.</p> 
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="add/js/js.js"></script>
