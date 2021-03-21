@@ -18,3 +18,14 @@
     position: absolute;
     z-index: -1;
 } 
+
+.footer-img {
+    width: 150px;  
+}
+
+.footer-img:hover {
+    position: relative;
+    transform: ;
+    width: 300px;
+    top: -150px;
+}
