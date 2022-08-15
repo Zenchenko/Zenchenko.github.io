@@ -1,0 +1,8 @@
+.Lietuva{
+    display: flex;
+    width: 30vw;
+    height: 20vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
